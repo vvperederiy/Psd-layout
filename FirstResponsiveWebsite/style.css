@@ -1,0 +1,26 @@
+@import url("css/normalize.css");
+
+
+::before,
+::after{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color: #9a9a9a;
+    /* 1rem = 16px */
+    font-size: 1rem;
+    /* 22px / 16px = 1.375rem */
+    line-height: 1.375;
+    margin: 0;
+}
