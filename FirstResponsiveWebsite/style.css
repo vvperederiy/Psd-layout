@@ -1,6 +1,7 @@
 @import url("css/normalize.css");
 
-
+/***********************************/
+/*******Первичные настройки*********/
 ::before,
 ::after{
     -webkit-box-sizing: border-box;
@@ -8,7 +9,7 @@
     box-sizing: border-box;
 }
 
-.clearfix::after{
+.clearfix::after, .header:after{
     content: "";
     display: table;
     clear: both;
@@ -23,4 +24,59 @@ body{
     /* 22px / 16px = 1.375rem */
     line-height: 1.375;
     margin: 0;
+}
+
+.page_cell{
+    max-width: 1180px;
+    margin:0 auto;
+}
+/******END Первичные настройки******/
+/**************HEADER***************/
+.header{
+    border-bottom: 1px solid #cccc;
+    padding: 1.8rem 0;
+}
+.phone_number, .email_address{
+    text-decoration: none;
+}
+.phone_number{
+    font-weight: bold;
+    color: black;
+    font-size: 1.5625rem;
+}
+.email_address{
+    color: #808080;
+}
+.header_logo{
+    float: left;
+}
+.header_contact{
+    float: right;
+    text-align: right;
+}
+/************END HEADER*************/
+/**************HEADER***************/
+.nav{
+    padding: 1.325rem;
+}
+.nav_list{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: space-between;
+}
+.link{
+    color: #9a9a9a;
+    text-decoration: underline;
+}
+.link:hover{
+    color: #f7837c;
+    transition: 0.5s;
+}
+.nav_link{
+    text-decoration: none;
+    font-size: 1.1875rem;
+    color: #444444;
+
 }
