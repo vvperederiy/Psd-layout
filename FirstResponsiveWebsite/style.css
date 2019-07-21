@@ -55,7 +55,7 @@ body{
     text-align: right;
 }
 /************END HEADER*************/
-/**************HEADER***************/
+/**************MENU***************/
 .nav{
     padding: 1.325rem;
 }
@@ -78,5 +78,36 @@ body{
     text-decoration: none;
     font-size: 1.1875rem;
     color: #444444;
-
 }
+/************END MENU*************/
+/**************SLIDER***************/
+.slider_item{
+    padding-top: 33%;
+    background-position: centr;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.slider .owl-dots .owl-dot span{
+    background: #ffffff;
+    border: 1px solid #cccccc;
+    width: 1rem;
+    height: 1rem;
+    display: block;
+    margin: 0 0.4rem;
+}
+.slider .owl-dots .owl-dot.active span{
+    background: #000000;
+    border-color: #000000;
+}
+.slider .owl-dots .owl-dot: hover span{
+    background: #000000;
+    border-color: #000000;
+}
+.slider .owl-dots{
+    position: absolute;
+    text-align: center;
+    left: 0;
+    right: 0;
+    bottom: 0.5rem;
+}
+/**********END SLIDER***************/

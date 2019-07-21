@@ -5,8 +5,10 @@
     <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
     <!-- <meta http-equiv="X-UA-Compatible" content="ie=edge"> -->
     <title>First website</title>
-    <link rel="stylesheet" href="style.css">
     <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="lib/owlcarousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="lib/owlcarousel/owl.theme.default.min.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body class="page">
     <!--logo and contact-->
@@ -56,9 +58,17 @@
     </div>
     <!--slider-->
     <div class="page_row"></div>
+        <div class="owl-carousel slider">
+            <div class="slider_item" style="background-image: url(images/slider1.jpg)"></div>
+            <div class="slider_item" style="background-image: url(images/slider2.jpg)"></div>
+            <div class="slider_item" style="background-image: url(images/slider3.jpg)"></div>
+        </div>
     <!--content-->
     <div class="page_row"></div>
     <!--footer-->
     <div class="page_row"></div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+    <script src="lib/owlcarousel/owl.carousel.min.js"></script>
+    <script type="text/javascript" src="js/scipt.js"></script>
 </body>
 </html>
