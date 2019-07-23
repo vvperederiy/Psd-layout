@@ -119,3 +119,44 @@
     color: #000000;
     margin: 2rem 0;
 }
+/**********END ABOUT US************/
+/********POPULAR CECTIONS**********/
+.grid_item{
+    float: left;
+    /*20 * 100 / 1180 = 1.7*/
+    margin-right: 1.7%;
+    margin-bottom: 1.7%;
+    /*(100 - 1.7) / 2 = 49.15*/
+    width: 49.15%;
+    position: relative;
+}
+.grid_item:nth-of-type(2n){
+    margin-right: 0;
+}
+.grid_wrap{
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(0, 0, 0, 0.5);
+    transition: 0.5s;
+}
+.grid_wrap:hover{
+    background: rgba(0, 0, 0, 0.8);
+}
+.grid_picture{
+    display: block;
+    max-width: 100%;
+}
+.grid_link{
+    color: #f4f4f4;
+    text-align: center;
+    font-size: 1.8125rem;
+}
+.grid_text{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+/****** END POPULAR CECTIONS********/
