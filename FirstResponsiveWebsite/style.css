@@ -159,4 +159,35 @@
     top: 50%;
     transform: translateY(-50%);
 }
-/****** END POPULAR CECTIONS********/
+/*******END POPULAR CECTIONS*******/
+/**********OUR ADVANTAGES**********/
+.icon_circle{
+    display: inline-block;
+    width: 6.25rem;
+    height: 6.25rem;
+    background: #ffb9b3;
+    border-radius: 50%;
+}
+.advantage_item{
+    text-align: center;
+    width: 28%;
+    margin-right: 8%;
+}
+.advantage_item:last-child{
+    margin-right: 0;
+}
+.icon_circle_picture{
+    max-width: 100%;
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.advantages{
+    display: flex;
+    flex-direction: row;
+}
+.advatage_headline{
+    font-weight: bold;
+    font-size: 1.25rem;
+    margin: 0.8rem;
+}
